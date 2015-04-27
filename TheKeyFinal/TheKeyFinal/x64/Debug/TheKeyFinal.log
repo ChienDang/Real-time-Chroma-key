@@ -1,0 +1,27 @@
+﻿  TheKeyFinal.cpp
+TheKeyFinal.cpp(1): warning C4005: 'UNICODE' : macro redefinition
+          command-line arguments :  see previous definition of 'UNICODE'
+TheKeyFinal.cpp(2): warning C4005: '_UNICODE' : macro redefinition
+          command-line arguments :  see previous definition of '_UNICODE'
+TheKeyFinal.cpp(1): warning C4603: 'UNICODE' : macro is not defined or definition is different after precompiled header use
+          Add macro to precompiled header instead of defining here
+          TheKeyFinal.cpp(3) : use of precompiled header
+TheKeyFinal.cpp(2): warning C4603: '_UNICODE' : macro is not defined or definition is different after precompiled header use
+          Add macro to precompiled header instead of defining here
+          TheKeyFinal.cpp(3) : use of precompiled header
+TheKeyFinal.cpp(241): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+TheKeyFinal.cpp(242): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+TheKeyFinal.cpp(243): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+TheKeyFinal.cpp(252): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+c:\opencv2410\opencv\build\include\opencv2\core\types_c.h(311): warning C4793: 'cvRound' : function compiled as native :
+  	Found an intrinsic not supported in managed code
+c:\opencv2410\opencv\build\include\opencv2\core\types_c.h(311): warning C4793: 'cvRound' : function compiled as native :
+  	Aligned data types not supported in managed code
+c:\opencv2410\opencv\build\include\opencv2\core\types_c.h(312): warning C4793: 'cvRound' : function compiled as native :
+  	Found an intrinsic not supported in managed code
+c:\opencv2410\opencv\build\include\opencv2\core\types_c.h(312): warning C4793: 'cvRound' : function compiled as native :
+  	Aligned data types not supported in managed code
+c:\opencv2410\opencv\build\include\opencv2\core\types_c.h(337): warning C4793: 'cvRound' : function compiled as native :
+  	Aligned data types not supported in managed code
+opencv_ts2410.lib(opencv_ts_pch.obj) : warning LNK4099: PDB 'opencv_ts2410.pdb' was not found with 'opencv_ts2410.lib(opencv_ts_pch.obj)' or at 'C:\Users\Dang Chien\documents\visual studio 2013\Projects\TheKeyFinal\x64\Debug\opencv_ts2410.pdb'; linking object as if no debug info
+  TheKeyFinal.vcxproj -> C:\Users\Dang Chien\documents\visual studio 2013\Projects\TheKeyFinal\x64\Debug\TheKeyFinal.exe
