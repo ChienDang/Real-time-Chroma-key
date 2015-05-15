@@ -11,3 +11,4 @@
 Camera có 2 trường hợp khi di chuyển:
 - Pan: di chuyển kiểu tịnh tiến, tức là cả bức ảnh sẽ + với 1 vector nào đó. Cần chú ý rằng ta chỉ quan tâm đến vị trí của màn hình xanh (TV ảo). Giải pháp: sử dụng 1 trong các hàm remap,  warpAffine hoặc getRotationMatrix2D.
 - Zoom: phóng to hay thu nhỏ nhưng tỉ lệ khoảng cách giữa các điểm quan trọng (ở đây là 4 điểm góc so với biên chẳng hạn) không thay đổi. Trường hợp này coi như xong, OpenCV có hàm hỗ trợ việc zoom ảnh (pyrUp - zoom out; pyrDown - zoom in), cách làm là lấy tham số từ thiết bị, zoom in hay out bao nhiêu thì nhân ảnh chuẩn với hệ số tương ứng.
+Nhìn chung cả 2 trường hợp đều cần làm trên thực nghiệm để dễ hình dung hơn.
